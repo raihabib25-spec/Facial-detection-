@@ -1,7 +1,7 @@
 # Facial-detection-
 pip install opencv-python
 import cv2 
-# Load face detecting program ᵂⁱᵗʰ ᵖʳᵉᵗʳᵃⁱⁿᵉᵈ ᵐᵒᵈᵉˡ
+# Load face detecting program With pretrained model
 face_cascade = cv2.CascadeClassifier('face_detector.xml')
 # Img defining in program
 img = cv2.imread('image.jpg')
